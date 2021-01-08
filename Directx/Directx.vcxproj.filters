@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Framework.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper-Text.cpp">
+      <Filter>DIrectX11\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="RTLControl.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX_11-devices.cpp">
+      <Filter>DIrectX11\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX_11-IA.cpp">
+      <Filter>DIrectX11\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX_11-Image.cpp">
+      <Filter>DIrectX11\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX_11-PSBuffer.cpp">
+      <Filter>DIrectX11\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX_11-surface.cpp">
+      <Filter>DIrectX11\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX_11-VSBuffer.cpp">
+      <Filter>DIrectX11\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX_11-Input.cpp">
+      <Filter>DIrectX11\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX_11-ErrorChecking.cpp">
+      <Filter>DIrectX11\Error</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX_11-camera.cpp">
+      <Filter>DIrectX11\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX_11-Audio.cpp">
+      <Filter>DIrectX11\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX_11-Wave.cpp">
+      <Filter>DIrectX11\Audio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Framework.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1FontWrapper-Text.h">
+      <Filter>DIrectX11\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="RTLControl.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX_11-devices.h">
+      <Filter>DIrectX11\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX_11-IA.h">
+      <Filter>DIrectX11\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX_11-Image.h">
+      <Filter>DIrectX11\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX_11-PSBuffer.h">
+      <Filter>DIrectX11\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX_11-surface.h">
+      <Filter>DIrectX11\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX_11-VSBuffer.h">
+      <Filter>DIrectX11\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX_11-Input.h">
+      <Filter>DIrectX11\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX_11-ErrorChecking.h">
+      <Filter>DIrectX11\Error</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX_11-camera.h">
+      <Filter>DIrectX11\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX_11-Audio.h">
+      <Filter>DIrectX11\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX_11-Wave.h">
+      <Filter>DIrectX11\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Load-wave.h">
+      <Filter>DIrectX11\Audio</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Window">
+      <UniqueIdentifier>{384f6967-54ce-4b65-ad22-eb0412e94f56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DIrectX11">
+      <UniqueIdentifier>{ebc2e2f8-b4de-4536-8e8b-240df6ee6324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DIrectX11\Graphics">
+      <UniqueIdentifier>{793f0c57-6acc-4f92-a6eb-1afae2f461d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DIrectX11\Input">
+      <UniqueIdentifier>{21c0bb97-4d24-4ec0-b740-deb2c50f6a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DIrectX11\Error">
+      <UniqueIdentifier>{f8e5086b-5d8f-4069-b44f-194896d32be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DIrectX11\Font">
+      <UniqueIdentifier>{8d625378-b77b-4478-b0fa-418db7f78ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{66ff3f97-a1e5-40a8-9b1f-5a5baa4f82cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DIrectX11\Audio">
+      <UniqueIdentifier>{c9d50d7a-45f2-4f3f-a7aa-dec053649365}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
